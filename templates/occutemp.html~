@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>occupations</title>
+  </head>
+
+  <body>
+
+    <h1>occupations</h1>
+    <ul>
+      <li></li>
+    </ul>
+
+    <img src="http://producemadesimple.ca/wp-content/uploads/2015/06/rambutan-square.jpg" width="100">
+
+    {{ msg }}
+
+    {% for i in group %}
+    <b>{{ i }} </b> <hr>
+    {% endfor %}
+
+  </body>
+</html>

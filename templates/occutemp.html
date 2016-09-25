@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<<<<<<< HEAD
+=======
+    <style>
+      table {
+      border-collapse: collapse;
+      }
+      
+      table, th, td {
+      border: 1px solid black;
+      }
+
+      th, td {
+      padding: 5px;
+      }
+      </style>
+>>>>>>> added working table
+    <title>occupations</title>
+  </head>
+
+  <body>
+
+    <table>
+    <tr>
+      <th>
+	occupation
+      </th>
+      <th>
+	percentage
+      </th>
+    </tr>
+    {% for occ in docc %}
+<<<<<<< HEAD
+    {{ occ }}
+    </table>
+    
+    {{ docc }}
+=======
+    <tr>
+      <td>
+	{{ occ }}
+      </td>
+      <td>
+	{{ docc[occ] }}%
+    </tr>
+    {% endfor %}
+    </table>
+
+    
+>>>>>>> added working table
+
+  </body>
+</html>
